@@ -10,7 +10,7 @@ browser.get("https://terfit.ru/cards-shop/orenburg/")
 #Список с названием абонементов
 price_card_name = browser.find_elements(By.CSS_SELECTOR, ".catalog-card__title")
 
-#Список с ценами без скидки
+#Список с ценами без скидки + размер скидки
 price_card_list_promo = browser.find_elements(By.CSS_SELECTOR, ".catalog-card__price-promo")
 
 #Список с ценами со скидкой
